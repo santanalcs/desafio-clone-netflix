@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/resposive.css">
+    
+    <!-- owL css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!--h2 class="logo">NETFLIX</!--h2-->
+            <img class="logo" src="/img/netflix.jpg" alt="">
+            <nav>
+                <a href="#" class="" id="">Início</a>
+                <a href="#series" class="" id="">Séries</a>
+                <a href="#filmes" class="" id="">Filmes</a>
+                <a href="#documentarios" class="" id="">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-filme">
+           
+            <div class="container">
+                <img src="/img//filmes/mains/main-godzilla-vs-kong.jpg" id="imagem" alt="" >
+                <!--
+                <h3 class="title">GODZILLA VS KONG</h3>
+                <p class="sinopse">Sinopse:</p>
+                <p class="description">
+                    Em uma época em que os monstros andam na Terra, a luta da humanidade por seu futuro coloca Godzilla e Kong em rota de colisão que verá as duas forças mais poderosas da natureza no planeta se confrontarem em uma batalha espetacular para as idades. Enquanto Monarch embarca em uma missão perigosa em terreno desconhecido e descobre pistas sobre as origens dos Titãs, uma conspiração humana ameaça tirar as criaturas, boas e más, da face da terra para sempre.
+                </p>
+                -->
+                
+                <div>
+                    <button class="btn" role="button">
+                        <i class="fas fa-play"></i>
+                        ASISTIR AGORA
+                    </button>
+                    <button class="btn" role="button">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <main class="main-carousel">
+        <div class="carousel-series" id="series">
+            <div class="owl-carousel owl-theme">
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-familia-pesada.jpg" onclick="mudaFilme('/img/series/mains/main-familia-pesada.jpg')" alt="" >
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-game-of-thrones.jpg" onclick="mudaFilme('/img/series/mains/main-game-of-thrones.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-good-doctor.jpg" onclick="mudaFilme('/img/series/mains/main-good-doctor.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-insecure.jpg" onclick="mudaFilme('/img/series/mains/main-insecure.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-lucifer.jpg" onclick="mudaFilme('/img/series/mains/main-lucifer.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-ncis-los-angeles.jpg" onclick="mudaFilme('/img/series/mains/main-ncis-los-angeles.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-seal-team.jpg" onclick="mudaFilme('/img/series/mains/main-seal-team.jpg') "alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-succession.jpg" onclick="mudaFilme('/img/series/mains/main-succession.jpg')" alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-the-boys.jpg" onclick="mudaFilme('/img/series/mains/main-the-boys.jpg') "alt="">
+                </div>
+                <div class="item-series">
+                    <img src="/img//series/capas/capa-walking-dead.jpg" onclick="mudaFilme('/img/series/mains/main-walking-dead.jpg')" alt="">
+                </div>
+            </div>
+            <h1>Séries</h1>         
+        </div>
+
+        <div class="carousel-filmes" id="filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-encontro-casais.jpg" onclick="mudaFilme('/img/filmes/mains/main-encontro-casais.jpg')" alt="" >
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-esquadrao-suicida.jpg" onclick="mudaFilme('/img/filmes/mains/main-esquadrao-suicida.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-godzilla-vs-kong.jpg" onclick="mudaFilme('/img/filmes/mains/main-godzilla-vs-kong.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-guerra-amanha.jpg" onclick="mudaFilme('/img/filmes/mains/main-guerra-amanha.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-lenda-mestre-chines.jpg" onclick="mudaFilme('/img/filmes/mains/main-lenda-mestre-chines.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-mercenarios-ii.jpg" onclick="mudaFilme('/img/filmes/mains/main-mercenarios-ii.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-mortal-kombat.jpg" onclick="mudaFilme('/img/filmes/mains/main-mortal-kombat.jpg') "alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-perseguicao.jpg" onclick="mudaFilme('/img/filmes/mains/main-perseguicao.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-vemon.jpg" onclick="mudaFilme('/img/filmes/mains/main-vemon.jpg') "alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//filmes/capas/capa-viuva-negra.jpg" onclick="mudaFilme('/img/filmes/mains/main-viuva-negra.jpg')" alt="">
+                </div>
+            </div>
+            <h1>Filmes</h1>         
+        </div>
+
+        <div class="carousel-documentarios" id="documentarios">
+            <div class="owl-carousel owl-theme">
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-cacadores-mitos.jpg" onclick="mudaFilme('/img/docmts/mains/main-cacadores-mitos.jpg')" alt="" >
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-cosmo.jpg" onclick="mudaFilme('/img/docmts/mains/main-cosmo.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-familia-irwin.jpg" onclick="mudaFilme('/img/docmts/mains/main-familia-irwin.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-investigacao-criminal.jpg" onclick="mudaFilme('/img/docmts/mains/main-investigacao-criminal.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-joias-sobre-rodas.jpg" onclick="mudaFilme('/img/docmts/mains/main-joias-sobre-rodas.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-maldicao-oak-island.jpg" onclick="mudaFilme('/img/docmts/mains/main-maldicao-oak-island.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-mayday-desastres-aereos.jpg" onclick="mudaFilme('/img/docmts/mains/main-mayday-desastres-aereos.jpg') "alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-planeta-terra-ii.jpg" onclick="mudaFilme('/img/docmts/mains/main-planeta-terra-ii.jpg')" alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-reizen-waes.jpg" onclick="mudaFilme('/img/docmts/mains/main-reizen-waes.jpg') "alt="">
+                </div>
+                <div class="item-filmes">
+                    <img src="/img//docmts/capas/capa-top-secret-ovnis.jpg" onclick="mudaFilme('/img/docmts/mains/main-top-secret-ovnis.jpg')" alt="">
+                </div>
+            </div>
+            <h1>Documentários</h1>         
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex-container">
+            <p>&copy; 2021 Clone NETFLIX </p>
+            <p>Desafio Bootcamp - Impulso React Web Dev. </p>
+            <p>Participação: Luiz Santana </p>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/75306235df.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

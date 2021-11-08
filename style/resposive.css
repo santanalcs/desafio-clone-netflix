@@ -1,0 +1,94 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: row;
+        z-index: 0;
+        position:absolute;
+        height: auto;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: #AAAAAA;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    header .logo {
+        height: 15px;
+        margin: 0 0 0 15px;
+    }
+
+    .main-filme {
+        font-size: 12px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-Game-of-Thrones.jpg');
+        height: 250px;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .main-filme #imagem {
+      width: 100%;
+      /*  margin-bottom: 20px;
+        margin-top: 45px;*/
+    }
+
+    .main-filme .description {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .main-filme .title {
+        margin-top: 10%;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+
+    .btn {
+        background-color: rgba(0,0,0,.50);
+        border: none;
+        color: #ffffff;
+        padding: 10px 30px;
+        margin-right: 15px;
+        font-size: 10px;
+        cursor: pointer;
+        width: 190px;
+        margin-bottom: 5px;
+        
+    }
+
+    .carousel-series {
+        height: 130vh;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+    
+    .carousel-filmes {
+        height: 130vh;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+    .carousel-documentarios {
+        height: 130vh;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: 110px;
+        font-size: 12px;
+    }
+    
+    footer .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 30px;
+        padding-top: 10px;
+        
+    }
+}

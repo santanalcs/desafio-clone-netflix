@@ -1,0 +1,181 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais*/
+body {
+    background: var(--preto);
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+header {
+    margin: 0 auto;
+}
+
+/* Estilos cabeçalho*/
+header .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: #000000;
+    height: 50px;
+    z-index: 9999;
+    position: fixed;
+}
+/*
+header .logo {
+    color: var(--vermelho);
+    margin-left: 10px;
+    font-family: 'Arial Black', Times, serif ;
+    font-size: 40px;
+}
+*/
+
+header .logo {
+    height: 30px;
+    margin: 0 0 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+/*Estilos main-filme*/
+.main-filme .container {
+    margin: 10px 0 0 10px;
+    width: 65%;
+}
+
+.main-filme {
+    height: 100vh;
+    font-size: 14px;
+    /*background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-Game-of-Thrones.jpg');*/
+    /*background: url('/img/capa-Game-of-Thrones.jpg');*/
+    /*height: 550px;*/
+    /*background-size: cover;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /*align-items: flex-start;*/ 
+}
+
+.main-filme .sinopse {
+    margin-top: 15px;
+}
+
+.main-filme .description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main-filme .title {
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.main-filme #imagem {
+    width: 900px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 1s ease all;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+/*Estilos carousel-filmes*/
+.main-carousel {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-carousel h1 {
+   margin-left: 2px;
+}
+/*
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+*/
+
+.carousel-series {
+    height: 100vh;
+    padding-top: 70px;
+    margin-left: 10px;
+}
+
+.carousel-series img:hover {
+    cursor: pointer;
+}
+
+.carousel-filmes {
+    height: 100vh;
+    padding-top: 70px;
+    margin-left: 10px;
+}
+
+.carousel-filmes img:hover {
+    cursor: pointer;
+}
+
+.carousel-documentarios {
+    height: 100vh;
+    padding-top: 70px;
+    margin-left: 10px;
+}
+
+.carousel-documentarios img:hover {
+    cursor: pointer;
+}
+
+
+footer {
+    background-color:#000000;
+    height: 70px;
+}
+
+footer .flex-container {
+    display: flex;
+    justify-content:space-around;
+    line-height: 70px;
+    
+}
+
+
+
